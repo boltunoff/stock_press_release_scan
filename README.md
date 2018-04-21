@@ -6,8 +6,8 @@ API docs:
 http://docs.intrinio.com/#securities-search-screener150
 
 
-User: 5e92761f9c9fc9d23468a554e22d4463
-Pass: 08d95c32f7c5293645505d9b0bb978d0
+User: ***
+Pass: ***
 
 Stock press release URLs:
     Press Releases (Headlines)
