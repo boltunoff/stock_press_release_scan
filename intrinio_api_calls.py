@@ -34,7 +34,7 @@ def extract_news_data(ticker):
     '''
     news_url = 'https://api.intrinio.com/news?identifier={ticker}'.format(ticker=ticker)
     response_json = requests.get(news_url,
-                                 auth=('5e92761f9c9fc9d23468a554e22d4463', '08d95c32f7c5293645505d9b0bb978d0')).json()
+                                 auth=('***', '***')).json()
 
     if int(response_json['result_count']) != 0:
         print 'Total News found for a ticker : {}'.format(response_json['result_count'])
